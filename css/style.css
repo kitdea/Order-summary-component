@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  font-weight: 500px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: auto;
+  background-image: url(/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 30vh center;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card-container{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 20px !important;
+  box-shadow: 2px 2px 50px hsla(224, 23%, 55%, 0.432);
+}
+
+.img-top-radius{
+   border-radius: 20px 20px 0 0 !important;
+}
+
+/* Header Font weight */
+.header-weight{
+  font-weight: 900;
+}
+
+.txt-change a{
+  color: hsl(245, 75%, 52%);
+}
+
+.txt-change a:hover{
+  color: hsl(249, 100%, 74%);
+}
+
+/* Annual Plan */
+.annual-plan-section{
+  background-color: hsl(225, 100%, 98%);
+}
+
+/* Button Background color */
+.btn-payment{
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 1px 5px 12px hsl(224, 23%, 55%);
+}
+
+.btn-payment:hover{
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(249, 100%, 74%);
+}
+
+.btn-order{
+  font-size: 18px;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+  background-color: transparent;
+}
+
+.btn-order:hover{
+  color: hsl(223, 47%, 23%);
+  background-color: transparent;
+}
+
+p{
+  color: hsl(224, 23%, 55%);
+}
